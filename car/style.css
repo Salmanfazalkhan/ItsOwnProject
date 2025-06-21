@@ -1,0 +1,375 @@
+
+/* company logo navbar */
+.navbar-brand img{
+    width: 150px;
+}
+
+
+/* ya hero secttion klye ha */
+.hero-section {
+      background-color: #007b8a;
+      color: white;
+      padding: 100px 0px;
+    }
+    .hero-section h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .hero-section p {
+      font-size: 1.1rem;
+     }
+    /* ya quote button k lye ha  */
+     .quote-btn {
+      background-color: #003f3c;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 25px;
+      font-weight: 600;
+    }
+    .quote-btn:hover {
+      background-color: #026960;
+    }
+
+    /* feature-highlgiht-section */
+
+    .feature-highlgiht-section{
+        background-color: #f8f9fa; color: black;
+    }
+    .star{
+        color: #f7941d; font-size: 50px;
+    }
+
+
+    /* ya navbar k neachy jo button laga howa ha wos k lye ha */
+
+    .book-know{
+    border-radius: 50px; 
+    font-weight: bold; 
+    color: #1a3c34;
+    width: 120px;
+    height: 40px; 
+    border: none;
+    margin-bottom: 20px;
+    }
+    .call-us{
+        border-radius: 50px;
+        font-weight: bold;
+        color: #1a3c34;
+        background-color: #f7941d;
+        width: 120px;
+        height: 40px;
+        border: none;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+        /* Welcome to the luxury Car Service Baltimore */
+        .Baltimore{
+            background-color: #f7941d;
+            color: #1a3c34; 
+            font-weight: 600;
+            font-size: 1.2rem;
+            height: 100px;
+            margin-right: 100px;
+        
+        }
+    
+     /* Meet Our Premium Fleet - Travel in Comfort, Arrive in  */
+
+
+     .header-text {
+            background-color: #1a3c34;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .card {
+            border: none;
+            text-align: center;
+            margin: 15px 0;
+        }
+        .card-img-top {
+            max-width: 100%;
+            height: auto;
+        }
+        .card-title {
+            background-color: #1a3c34;
+            color: white;
+            padding: 5px;
+            font-size: 1.1rem;
+        }
+        .btn-custom {
+            background-color: #d99205;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 15px;
+            margin: 5px;
+        }
+        .btn-custom:hover {
+            background-color: #e76f51;
+        }
+        .details {
+            font-size: 0.9rem;
+            color: #495057;
+        }
+
+
+
+        /* why we choice for you */
+
+
+        .khan {
+            margin-top: 50px;
+            background-color: #1a3c34;
+        }
+        .highlight-box {
+            background-color: #e76f51;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .highlight-box h2 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .highlight-box p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .text-section {
+            color: white;
+            padding: 30px;
+            background-image: url('https://via.placeholder.com/300x300.png?text=Capitol+Building');
+            background-size: cover;
+            background-position: center;
+        }
+        .text-section h3 {
+            color: #f4a261;
+            font-weight: bold;
+        }
+        .text-section p {
+            font-size: 1rem;
+        }
+        .driver-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        /* seamless travel experity */
+        .header {
+            color: #1a3c34;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+        .subheader {
+            color: #6c757d;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+        .service-card {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .service-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .service-card h4 {
+            color: #1a3c34;
+            font-weight: bold;
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .service-card p {
+            color: #495057;
+            font-size: 0.9rem;
+        }
+        .btn1{
+            border: 1px solid rgb(226, 148, 4);
+            border-radius: 50px;
+            width: 120px;
+            height: 40px;
+            color: #1a3c34;
+            font-weight: bold;
+        }
+        .view{
+            border: 1px solid rgb(226, 148, 4);
+            background-color: rgb(226, 148, 4);
+              border-radius: 50px;
+            width: 140px;
+            height: 40px;
+           text-align: center;
+           margin-bottom: 40px;
+           margin-left: 45%;
+           margin-top: 40px;
+        }
+
+
+        /* get started your perfect ride */
+        .header-section {
+            background-color: #1a3c34;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 20px;
+        }
+        .header-section h1 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+        .btn-custom {
+            margin: 5px;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        .btn-book {
+            color: white;
+            border: 1px solid #ffffff;
+            background-color:#1a3c34;
+        }
+        .btn-call {
+            color: #1a3c34;
+            font-weight: bold;
+            border: none;
+            background-color: white;
+        }
+        .title-section {
+            color: #1a3c34;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.5rem;
+        }
+        /* add more sets section */
+        .sets{
+            margin-top: 30px;
+        }
+        .card-section {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .card-section img {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+        .card-section h4 {
+            color: #1a3c34;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .card-section p {
+            color: #495057;
+            font-size: 0.9rem;
+        }
+
+     /* our customer services */
+       .testimonial-card {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: start;
+    }
+        /* FAQ  */
+.faq {
+  margin-top: 20px;
+  direction: ltr; /* keep text left-to-right */
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.faq-header {
+  text-align: center;
+  color: #1a3c34;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.accordion-button {
+  font-size: 1rem;
+  color: white;
+  background-color: #1a3c34;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #1a3c34;
+  color: white;
+  padding: 30px 0;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer-logo img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-links h5,
+.footer-contact h5,
+.footer-location h5 {
+  color: #f4a261;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.footer-links a,
+.footer-contact p,
+.footer-location p {
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #f4a261;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.social-icons a:hover {
+  color: #f4a261;
+}
+
+.map-iframe {
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-radius: 5px;
+}
+
+ /* neachy lain ay wos k lye use karty ha */
+         .navbar-nav .nav-link {
+      position: relative;
+      padding-bottom: 5px;
+    }
+
+    .navbar-nav .nav-link::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      left: 0;
+      bottom: 0;
+      background-color:#1a3c34;
+      transition: width 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover::after {
+      width: 100%;
+    }
+    

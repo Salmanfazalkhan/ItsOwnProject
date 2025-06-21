@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luxury Car Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <style>
+    body {
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .header-section {
+      text-align: center;
+      padding: 80px 20px 40px;
+      background-color: #007b8a;
+    }
+
+    .header-img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+
+    .overlay {
+      color: #1a3c34;
+      padding: 60px 20px;
+    }
+
+    .service-box {
+      background-color:  #007b8a;
+      color: #1a3c34;
+      font-weight: bold;
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .service-box:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-10px) scale(1.03);
+    }
+
+    .service-icon {
+      font-size: 48px;
+      color: #ffc107;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section with animated text -->
+  <div class="header-section">
+    <h1><span id="typed-text"></span></h1>
+    <p data-aos="fade-up" data-aos-delay="300">Professional Chauffeur Services for Business, Events, and Travel</p>
+    <img src="image/main.png" alt="Luxury Car" class="header-img" data-aos="zoom-in" data-aos-delay="600">
+  </div>
+
+  <!-- Services Section -->
+  <div class="overlay container">
+    <h2 class="text-center mb-5" data-aos="fade-up">Our Luxury Services</h2>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="zoom-in">
+        <div class="service-box">
+          <div class="service-icon"><i class="bi bi-airplane-engines"></i></div>
+          <h5>Airport Transfers</h5>
+          <p>Comfortable and on-time pickups/drop-offs at BWI, DCA, IAD.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="service-box">
+          <div class="service-icon"><i class="bi bi-briefcase-fill"></i></div>
+          <h5>Corporate Travel</h5>
+          <p>Professional transport for executives and business meetings.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="service-box">
+          <div class="service-icon"><i class="bi bi-gem"></i></div>
+          <h5>Weddings & Events</h5>
+          <p>Elegant rides for weddings, proms, and private events.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="service-box">
+          <div class="service-icon"><i class="bi bi-clock-history"></i></div>
+          <h5>Hourly Chauffeur</h5>
+          <p>Flexible luxury ride on your time.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+        <div class="service-box">
+          <div class="service-icon"><i class="bi bi-building"></i></div>
+          <h5>City Tours</h5>
+          <p>Explore Baltimore in style with local chauffeurs.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+        <div class="service-box">
+          <div class="service-icon"><i class="bi bi-person-fill-lock"></i></div>
+          <h5>VIP & Celebrity</h5>
+          <p>Discreet and secure service for high-profile clients.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <div class="overlay container mt-5">
+    <h2 class="text-center mb-4" data-aos="fade-up">Client Testimonials</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img src="image/shhazad.png" class="rounded-circle mb-3" width="100" height="100" alt="Client 1">
+            <h5>Muhammad shahzad</h5>
+            <div class="text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p class="fst-italic">"Absolutely seamless experience. The chauffeur was on time, the ride was luxurious, and the service was top-notch."</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img src="image/boys.png" class="rounded-circle mb-3" width="100" height="100" alt="Client 2">
+            <h5>Zeeshan Ramzan</h5>
+            <div class="text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="fst-italic">"Used their services for our wedding day — truly elegant and professional. Highly recommended!"</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img src="image/WhatsApp Image 2025-06-18 at 11.04.34 AM.jpeg" class="rounded-circle mb-3" width="100" height="100" alt="Client 3">
+            <h5>Salman Fazal</h5>
+            <div class="text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <p class="fst-italic">"Very reliable for airport transfers. Safe, stylish, and always on time. Will book again!"</p>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Book Now CTA -->
+  <div class="text-center mt-4" data-aos="fade-up">
+    <a href="#booking" class="btn btn-lg px-5 fw-bold mb-4" style="color: #1a3c34; background-color: rgb(226, 148, 4);">Book Your Ride Now</a>
+  </div>
+<!-- footer -->
+ <footer class="text-white pt-5 pb-4" style="background-color: #1a3c34;">
+            <div class="container">
+            <div class="row">
+            <!-- Logo and Social Links -->
+           <div class="col-md-3 mb-4">
+           <img src="image/company logo.png" alt="Company Logo" class="img-fluid mb-2">
+           <p>Follow us on social media:</p>
+           <div class="d-flex gap-3">
+          <a href="https://facebook.com" target="_blank" class="text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com" target="_blank" class="text-white"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>Quick Links</h5>
+        <p><a href="index.html" class="text-white text-decoration-none">Home</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Services</a></p>
+        <p><a href="about.html" class="text-white text-decoration-none">About Us</a></p>
+        <p><a href="contact.html" class="text-white text-decoration-none">Contact Us</a></p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>Contact Us</h5>
+        <p><i class="fas fa-phone-alt"></i> +92 302 1480680</p>
+        <p><i class="fas fa-envelope"></i> salmanfazalkhan455@gamil.com</p>
+        <p><i class="fas fa-clock"></i> Mon-Fri: 9 AM - 6 PM</p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>Our Location</h5>
+        <p>123 Luxury Lane, Baltimore, MD 21201</p>
+        <div class="ratio ratio-4x3">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.353127857938!2d73.44899472419989!3d30.87678097865917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922a064eb1418af%3A0xad6f22e5af265800!2sChak%2029%2F2R%2C%20Pakistan!5e0!3m2!1sen!2s!4v1750137820843!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+    new Typed('#typed-text', {
+      strings: ['Experience Luxury Rides', 'Arrive in Style', 'Your Comfort, Our Priority'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
+  </script>
+</body>
+</html>
